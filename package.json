@@ -1,0 +1,11 @@
+{
+  "name": "petter",
+  "version": "1.0.0",
+  "description": "The very very small logger",
+  "main": "lib/petter.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Jackson Tian",
+  "license": "MIT"
+}
