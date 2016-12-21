@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/JacksonTian/petter/issues"
   },
-  "homepage": "https://github.com/JacksonTian/petter#readme"
+  "homepage": "https://github.com/JacksonTian/petter#readme",
+  "files": [
+    "lib"
+  ]
 }
