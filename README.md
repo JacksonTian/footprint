@@ -1,23 +1,25 @@
-# petter
+# Footprint
+
+A very very small logger.
 
 ## Installation
 
 ```sh
-$ npm install petter -S
+$ npm install footprint -S
 ```
 
 ## Usage
 
 ```
-var Petter = require('petter');
-var petter = new Petter({
+var Footprint = require('footprint');
+var logger = new Footprint({
   logdir: os.tmpdir(), // default: `os.tmpdir()`
-  prefix: 'petter-', // default: `"petter-"`
+  prefix: 'footprint-', // default: `"footprint-"`
   enable: true, // default: `true`
-  format: Petter.YYYYMMDD // default: `Petter.YYYYMMDD(new Date())`
+  format: Footprint.YYYYMMDD // default: `Footprint.YYYYMMDD(new Date())`
 });
 
-petter.log('some things');
+logger.log('some things');
 // => write into `${logdir}${prefix}${format(new Date())}.log`
 // cat `${logdir}${prefix}${format(new Date())}.log`
 // => some things

@@ -1,8 +1,8 @@
 {
-  "name": "petter",
-  "version": "1.0.1",
+  "name": "footprint",
+  "version": "1.0.0",
   "description": "The very very small logger",
-  "main": "lib/petter.js",
+  "main": "lib/footprint.js",
   "scripts": {
     "test": "make test"
   },
@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JacksonTian/petter.git"
+    "url": "git+https://github.com/JacksonTian/footprint.git"
   },
   "keywords": [
     "Logger"
   ],
   "bugs": {
-    "url": "https://github.com/JacksonTian/petter/issues"
+    "url": "https://github.com/JacksonTian/footprint/issues"
   },
-  "homepage": "https://github.com/JacksonTian/petter#readme",
+  "homepage": "https://github.com/JacksonTian/footprint#readme",
   "files": [
     "lib"
   ]
