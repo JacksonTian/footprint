@@ -1,6 +1,6 @@
 {
   "name": "footprint",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "The very very small logger",
   "main": "lib/footprint.js",
   "scripts": {
