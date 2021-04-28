@@ -2,6 +2,8 @@
 
 A very very small logger.
 
+[![codecov](https://codecov.io/gh/JacksonTian/footprint/branch/master/graph/badge.svg)](https://codecov.io/gh/JacksonTian/footprint)
+
 ## Installation
 
 ```sh
