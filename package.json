@@ -1,10 +1,14 @@
 {
   "name": "footprint",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "The very very small logger",
   "main": "lib/footprint.js",
   "scripts": {
-    "test": "make test"
+    "lint": "eslint --fix lib test",
+    "test": "mocha -t 5000 -R spec test/**/*.test.js test/*.test.js",
+    "cov": "nyc --reporter=html --reporter=text --reporter=lcov npm run test",
+    "ci": "npm run lint && npm run cov && codecov",
+    "ut": "mocha -t 5000 -R spec"
   },
   "author": "Jackson Tian",
   "license": "MIT",
@@ -25,12 +29,10 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "mkdirp": "^0.5.1"
-  },
   "devDependencies": {
-    "expect.js": "^0.3.1",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.2.0"
+    "codecov": "^3.8.1",
+    "eslint": "^7.25.0",
+    "mocha": "^8",
+    "nyc": "^15.1.0"
   }
 }
